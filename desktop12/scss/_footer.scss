@@ -1,0 +1,27 @@
+.footer {
+    position: absolute;
+    display: flex;
+    left: -1070px;
+    bottom: -20px;
+}
+
+.footer_text {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.companies {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    width: 500px;
+    padding-left: 50px;
+    .companylogo {
+        width: 200px; 
+        height: 40px;     
+    }
+}
+

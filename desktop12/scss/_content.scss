@@ -1,0 +1,95 @@
+.contain {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 163px;
+    left: 80px;
+    gap: 48px;
+}
+
+.tittle {
+    position: absolute;
+    top: 6%;
+    width: 50%;
+    height: 50%;
+    opacity: 0px;
+    margin: 0 0 0 4%;
+    z-index: 2;
+    p {
+        font-family: Plus Jakarta Sans;
+        font-size: 110px;
+        font-weight: 600;
+        line-height: 79.2px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+}
+
+.sub-tittle {
+    margin-top: 17%;
+    margin-left: 4%;
+    p {
+        font-size: 25px;
+        width: 760px;
+        height: 41px;
+        gap: 0px;
+        opacity: 0px;
+        color: gray;
+    }
+}
+
+.content-click {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    .callbtn {
+        padding: 8%;       
+        button {
+            position: relative;
+            height: 60px;
+            width: 320px;
+            padding: 10px 20px;
+            background-color: $secondary-color;
+            color: #fff;
+            border: none;
+            border-radius: 75px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            font-size: 22px ;
+            transition: background-color 0.5s;
+            p {
+                position: absolute;
+                margin: 0;
+                margin-right: 5px;
+                left: 70px;
+                font-weight: 500;
+            }
+
+            .schedule_btn_arrow {
+                position: absolute;
+                right: 70px;
+                top: 16px;
+                font-size: 24px;
+            }
+            &:hover {                
+                color: $secondary-color;
+                 background-color: $primary-color;           
+            }
+
+        }
+                    
+    }
+    .viewcs {
+        position: absolute;
+        left: 27%;
+        top: 67%;
+        a {
+            color: #000;
+            font-size: 22px;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+}
